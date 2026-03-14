@@ -25,6 +25,6 @@ class PLCWatcher:
             time.sleep(0.5) # Poll every 500ms
 
 PLC_MAP = {
-    'PLC_1': {'ip': '192.168.1.10', 'tags': ['Relay_1', 'Relay_2']},
-    'PLC_2': {'ip': '192.168.1.11', 'tags': ['Relay_1', 'Relay_2']},
+    'PLC_1': {'ip': '10.22.128.92', 'tags': ['Program:MainProgram.Sys_On', 'Program:MainProgram.Valve1_.Extended_LS']},
+    'PLC_2': {'ip': '10.22.129.112', 'tags': ['Program:MainProgram.Sys_On', 'Program:MainProgram.Valve1_.Extended_LS']},
 }
