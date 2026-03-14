@@ -41,9 +41,6 @@ INSTALLED_APPS = [
 ]
 
 # Configure File-Based Cache (Bridge between PLC Worker and Web)
-import os
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 CACHES = {
     'default': {
         'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
