@@ -1,11 +1,11 @@
 # Web Framework
-Django==5.1.6
+Django
 # PLC Driver
-pycomm3==2.1.1
+pycomm3
 # Task Queue & Scheduling
-celery==5.4.0
-django-celery-beat==2.9.0
+celery
+django-celery-beat
 # Redis Client (required for Celery broker & Cache)
-redis==5.2.1
+redis
 # Optional but recommended for production
-gunicorn==23.0.0
+gunicorn
